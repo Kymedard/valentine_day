@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonne Saint-Valentin</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffe6e6;
+            font-family: 'Arial', sans-serif;
+        }
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .card h1 {
+            color: #ff4d4d;
+        }
+        .card p {
+            color: #333;
+        }
+        .heart {
+            color: #ff4d4d;
+            font-size: 50px;
+            animation: heartbeat 1s infinite;
+        }
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Bonne Saint-Valentin!</h1>
+        <p>Je t'aime de tout mon cœur ❤️</p>
+        <div class="heart">❤️</div>
+    </div>
+    <script>
+        // You can add any additional JavaScript here if needed
+        // document.addEventListener('DOMContentLoaded', () => {
+        //     const heartContainer = document.querySelector('.card');
+        //     setInterval(() => {
+        //         const newHeart = document.createElement('div');
+        //         newHeart.classList.add('heart');
+        //         newHeart.textContent = '❤️';
+        //         heartContainer.appendChild(newHeart);
+        //     }, 1000);
+        // });
+
+    </script>
+</body>
+</html></div></html>
